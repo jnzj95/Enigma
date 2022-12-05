@@ -12,7 +12,7 @@ Enigma was developed by myself (<a href="https://github.com/jnzj95">Jack Ng</a>)
 <p>
 I wanted to share the code publically to allow anyone who is interested an opportunity to download and run the program for themselves. Maybe you saw the show and thought of ideas of your own on how to best use the features shown, want to build on an existing idea, or simply want to improvise and explore different possibilities with the programme. I do get those bursts of inspiration watching such performances, so I thought it would be fun to let anyone interested play with this.
 </p>
-<p>(Do reach out if you come up with smth cool on my <a href="https://www.instagram.com/jkouutktoawski/">Instagram</a>, I'd love to see it :D)</p>
+<p>(Do reach out if you come up with smth cool! I'm most active on <a href="https://www.instagram.com/jkouutktoawski/">Instagram</a>, and I'd love to see anything built on this :D)</p>
 <h2> States
 </h2>
 <p>
