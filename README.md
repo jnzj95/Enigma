@@ -10,7 +10,7 @@ Image effects built on opencv
 Enigma was developed by myself (<a href="https://github.com/jnzj95">Jack Ng</a>) together with a friend (<a href="https://github.com/Ivan-LZY">Ivan Lim</a>), for a dance piece that I choreographed. The objective for developing this software was to have accompanying visual effects to highlight/obscure certain elements of the dancers' movements, and to offer the audience the option of looking at the same movement from a different perspective.
 </p>
 <p>
-I wanted to share the code publically to allow anyone who is interested an opportunity to download and run the program for themselves. Maybe you saw the show and thought of ideas of your own on how to best use the features shown, want to build on an existing idea, or simply want to improvise and explore different possibilities with the programme. I do get those bursts of inspiration watching such performances, so I thought it would be fun to let anyone interested play with this.
+I wanted to share the code publically to allow anyone who is interested an opportunity to have the program for their own use. Maybe you saw the show and thought of ideas of your own on how to best use the features shown, want to build on an existing idea we presented, or simply want to improvise and explore different possibilities with the programme. I do get those bursts of inspiration watching such performances, so I thought it would be fun to let anyone interested play with this.
 </p>
 <p>(Do reach out if you come up with smth cool! I'm most active on <a href="https://www.instagram.com/jkouutktoawski/">Instagram</a>, and I'd love to see anything built on this :D)</p>
 <h2> States
