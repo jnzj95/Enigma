@@ -40,13 +40,11 @@ The section below describes each of the different features in the program, defin
 <h2> A word of thanks
 </h2>
 
-<p>
-Thank Jun Hui, Pei Yao, Say Hua, Zeng Yu, Chao Jing, Ivan.
-Thank Anthea for her mentorship and her advice throughout.
-Thank Aik Song, Mus
-Thank Sigma/HGF/Chiok f.or the platform.
-And lastly, thank you for taking the time to partake in my art.
-</p>
+<p>Thank Jun Hui, Pei Yao, Say Hua, Zeng Yu, Chao Jing, Ivan.</p>
+<p>Thank Anthea for her mentorship and her advice throughout..</p>
+<p>Thank Aik Song, Mus.</p>
+<p>Thank Sigma/HGF/Chiok f.or the platform..</p>
+<p>And lastly, thank you for taking the time to partake in my art. :)</p>
 
 <p>
  <a href="https://github.com/Ivan-LZY">Once again, Do check out Ivan's other projects here!</a> 
