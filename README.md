@@ -22,19 +22,20 @@ I wanted to share the code publically to allow anyone who is interested an oppor
 <p>(Do reach out if you come up with smth cool! I'm most active on <a href="https://www.instagram.com/jkouutktoawski/">Instagram</a>, and I'd love to see anything built on this :D)</p>
 
 ## States
-<p>
 The section below describes each of the different features in the program, defined by states. You can change which state you are in using the number keys (NOT the keypad)
-</p>
  ### State 1: AM
-  <p>AM creates afterimages of a moving object at a fixed time intervals.</p>
-  <p>The time intervals can be controlled by using the constant (Insert time_interval variable here). The number of afterimages can also be changed by changing the constant "afterimage_count" in the code. </p>
-  <p>For a more flexible version, see State 2: AM_On_Click.</p>
+  AM creates afterimages of a moving object at a fixed time intervals.
+  
+  The time intervals can be controlled by using the constant (Insert time_interval variable here). The number of afterimages can also be changed by changing the constant "afterimage_count" in the code. 
+  
+  For a more flexible version, see State 2: AM_On_Click.
+  
  ### State 2: AM_On_Click
- <p>(Insert Div save, div load here)</p>
+ (Insert Div save, div load here)
  ### State 3: AM_Forever
- <p>(Diff colours, permanently cover projection in col/white)</p>
+ (Diff colours, permanently cover projection in col/white)
  ### State 4:Brush
- <p>(Description)</p>
+ (Description)
  ### State 5: Brushstroke_multi
  <p>(Description)</p>
  ### State 6: Line
