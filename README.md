@@ -26,23 +26,23 @@ I wanted to share the code publically to allow anyone who is interested an oppor
 The section below describes each of the different features in the program, defined by states. You can change which state you are in using the number keys (NOT the keypad)
 </p>
 <ol>
- <li><h3 "color: #FFF000">State 1: AM</h3></li>
+ <li><h3>State 1: AM</h3></li>
   <p>AM creates afterimages of a moving object at a fixed time intervals.</p>
   <p>The time intervals can be controlled by using the constant (Insert time_interval variable here). The number of afterimages can also be changed by changing the constant "afterimage_count" in the code. </p>
   <p>For a more flexible version, see State 2: AM_On_Click.</p>
- <li>State 2: AM_On_Click</li>
+ <li><h3>State 2: AM_On_Click</h3></li>
  <p>(Insert Div save, div load here)</p>
- <li>State 3: AM_Forever</li>
+ <li><h3>State 3: AM_Forever</h3></li>
  <p>(Diff colours, permanently cover projection in col/white)</p>
- <li>State 4:Brush</li>
+ <li><h3>State 4:Brush</h3></li>
  <p>(Description)</p>
- <li>State 5: Brushstroke_multi</li>
+ <li><h3>State 5: Brushstroke_multi</h3></li>
  <p>(Description)</p>
- <li>State 6: Line</li>
+ <li><h3>State 6: Line</h3></li>
  <p>(Description)</p>
- <li>State 7: AM_Faded</li>
+ <li><h3>State 7: AM_Faded</h3></li>
  <p>(Description)</p>
- <li>State 0: Nothing</li>
+ <li><h3>State 0: Nothing</h3></li>
  <p>(Description)</p>
 </ol>
 
