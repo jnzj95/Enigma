@@ -35,26 +35,45 @@ The section below describes each of the different features in the program, defin
   For a more flexible version, see State 2: AM_On_Click.
   
  ### State 2: AM_On_Click
- (Insert Div save, div load here)
+ AM_On_Click is an extension of AM. Which includes a few other functions:
+  #### AM on keypress (Default "o")
+  #### Constant AM (Default "i")
+  #### Diverging AM (Default ";" and "")
+  #### Converging AM (Default "l")
+  #### Trailing off AM (Default "u")
+  
+ 
  ### State 3: AM_Forever
- (Diff colours, permanently cover projection in col/white)
+  #### Coloured AMs (Default "a/s/d/z/x/c")
+  #### Randomly Coloured AMs (Default "w")
+  #### White AMs (Default "q")
  ### State 4:Brush
- (Description)
+ For tracking a single dancer in frame. For multiple bodies, use state 5:Brushstroke_multi
+  #### Bodypart tracking (Left click to target, "\[" and "\]" to change bodypart being tracked)
  ### State 5: Brushstroke_multi
- (Description)
+  #### Swapping target (default "m")
+  #### Toggling on Det_Multi (default ",")
  ### State 6: Line
- (Description)
+   #### Changing Line thickness/angle/center
+   #### Toggling Movement trace (default 't')
  ### State 7: AM_Faded
- (Description)
+  #### AM on keypress (Default "o")
+  #### Constant AM (Default "i")
  ### State 0: Nothing
- (Description)
+  State 0 will just display the frame captured by the camera, with no extra frills.
 
 ## How to Setup
-This section will explain how to setup and run your own code.
+This section will explain how to setup and run the code on your own PC.
 
-Testing other things.
-### Pre-requisites (Python, Camera, etc)
+### Pre-requisites
+Firstly, do make sure you have [Python]:https://www.python.org/downloads/ downloaded on your computer. 
+
+The program should work fine on any webcam, but do make sure to adjust the cam_res variable to a resolution your camera is able to support.
+
 ### Downloading requirements
+
+To begin, create a new folder where you would like download the files to. 
+open up a terminal (Start --> Search "cmd" --> Press Enter) and input the following:
 ```
 $ cd <your directory>
 $ cmake download requirements
