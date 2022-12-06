@@ -26,7 +26,7 @@ I wanted to share the code publically to allow anyone who is interested an oppor
 The section below describes each of the different features in the program, defined by states. You can change which state you are in using the number keys (NOT the keypad)
 </p>
 <ol>
- <li><h3>State 1: AM</h3></li>
+ <li><h3 "font:red;">State 1: AM</h3></li>
   <p>AM creates afterimages of a moving object at a fixed time intervals.</p>
   <p>The time intervals can be controlled by using the constant (Insert time_interval variable here). The number of afterimages can also be changed by changing the constant "afterimage_count" in the code. </p>
   <p>For a more flexible version, see State 2: AM_On_Click.</p>
