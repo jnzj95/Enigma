@@ -46,6 +46,7 @@ The section below describes each of the different features in the program, defin
 
 ## How to Setup
 This section will explain how to setup and run your own code.
+
 Testing other things.
 ### Pre-requisites (Python, Camera, etc)
 ### Downloading requirements
