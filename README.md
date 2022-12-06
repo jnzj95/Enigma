@@ -2,9 +2,11 @@
 :---:
 Image effects built on opencv
 
-A few highlights           |  For your perusal
-:-------------------------:|:-------------------------:
+
 ![](https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png)  |  ![](https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png)
+:-------------------------:|:-------------------------:
+Afterimages           |  Faded frames
+
 
 <!---![<p align="center"><img src="https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png" width="200" /></p>](https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png)--->
 
