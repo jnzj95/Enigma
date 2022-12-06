@@ -37,9 +37,9 @@ The section below describes each of the different features in the program, defin
  ### State 4:Brush
  (Description)
  ### State 5: Brushstroke_multi
- <p>(Description)</p>
+ (Description)
  ### State 6: Line
- <p>(Description)</p>
+ (Description)
  ### State 7: AM_Faded
  <p>(Description)</p>
  ### State 0: Nothing
