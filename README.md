@@ -1,11 +1,10 @@
 # Enigma
-:---:
 Image effects built on opencv
 
 
 ![](https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png)  |  ![](https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png)
 :-------------------------:|:-------------------------:
-Afterimages           |  Faded frames
+E.g 1: Afterimages         |  E.g 2: Faded frames
 
 ## Table of Contents
 <ol>
@@ -49,7 +48,7 @@ The section below describes each of the different features in the program, defin
   #### White AMs (Default "q")
  ### State 4:Brush
  For tracking a single dancer in frame. For multiple bodies, use state 5:Brushstroke_multi
-  #### Bodypart tracking (Left click to target, "\[" and "\]" to change bodypart being tracked)
+  #### Bodypart tracking (Left click on Control_Frame to target, "\[" and "\]" to change bodypart being tracked)
  ### State 5: Brushstroke_multi
   #### Swapping target (default "m")
   #### Toggling on Det_Multi (default ",")
