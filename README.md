@@ -40,12 +40,14 @@ The section below describes each of the different features in the program, defin
 
 <h2> A word of thanks
 </h2>
-
-<p>Thank Jun Hui, Pei Yao, Say Hua, Zeng Yu, Chao Jing, Ivan.</p>
-<p>Thank Anthea for her mentorship and her advice throughout..</p>
-<p>Thank Aik Song, Mus.</p>
-<p>Thank Sigma/HGF/Chiok f.or the platform..</p>
-<p>And lastly, thank you for taking the time to partake in my art. :)</p>
+<p>I would like to thank everyone who made this possible, in no particular order:</p>
+<ul>
+<li>My lovely collaborators and dancers, Ivan, Jun Hui, Pei Yao, Say Hua, Zeng Yu, and Chao Jing. Having people who were committed and proactive made a world of difference to me.</li>
+<li>My endlessly encouraging mentor, Anthea, whose input helped give direction to the work. </li>
+<li>Aik Song and Mus for their early contributions to the work. I hope to work with you both at some point in the future.</li>
+<li>Sigma Contemporary Dance for providing the platform, and taking the gamble of believing in me.</li>
+<li>And lastly, thank you for taking the time to partake in my art. :)</li>
+</ul>
 
 <p>
  <a href="https://github.com/Ivan-LZY">Once again, Do check out Ivan's other projects here!</a> 
