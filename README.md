@@ -22,7 +22,7 @@ I wanted to share the code publically to allow anyone who is interested an oppor
 
 <p>(Do reach out if you come up with smth cool! I'm most active on <a href="https://www.instagram.com/jkouutktoawski/">Instagram</a>, and I'd love to see anything built on this :D)</p>
 
-<h2>States</h2>
+#<h2>States</h2>
 <p>
 The section below describes each of the different features in the program, defined by states. You can change which state you are in using the number keys (NOT the keypad)
 </p>
