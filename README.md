@@ -7,6 +7,7 @@ Image effects built on opencv
 <ol>
   <li><a href="https://github.com/jnzj95/Enigma_/blob/main/README.md#-what-am-i-looking-at">What am I looking at?</a></li>
   <li><a href="https://github.com/jnzj95/Enigma_/blob/main/README.md#states">States</a></li>
+  <li><a href="https://github.com/jnzj95/Enigma_/blob/main/README.md#how-to-setup">How to Setup</a></li>
   <li><a href="https://github.com/jnzj95/Enigma_/blob/main/README.md#-a-word-of-thanks">A word of Thanks</a></li>
 </ol>
  
@@ -46,8 +47,17 @@ The section below describes each of the different features in the program, defin
  <p>(Description)</p>
 </ol>
 
-<h2> A word of Thanks
-</h2>
+<h2>How to Setup</h2>
+<p>This section will explain how to setup and run your own code</p>
+<p>Pre-requisites (Python)</p>
+<p>Downloading requirements</p>
+```
+$ cd <your directory>
+$ cmake download requirements
+$ some other details
+```
+
+<h2> A word of Thanks</h2>
 <p>I would like to thank everyone who made this possible, in no particular order:</p>
 <ul>
 <li>My lovely collaborators and dancers, Ivan, Jun Hui, Pei Yao, Say Hua, Zeng Yu, and Chao Jing. Whether its coming up with code improvements without prompt, practicing the movement during your rest times, or asking for more practices, everyone has put in far more effort than I can reasonably expect, all of which I am deeply grateful for. Having people who were committed made a world of difference to me, and I consider myself extremely lucky to have had this chance to work with you all.</li>
