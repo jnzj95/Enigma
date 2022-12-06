@@ -7,9 +7,6 @@ Image effects built on opencv
 :-------------------------:|:-------------------------:
 Afterimages           |  Faded frames
 
-
-<!---![<p align="center"><img src="https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png" width="200" /></p>](https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png)--->
-
 ## Table of Contents
 <ol>
   <li><a href="https://github.com/jnzj95/Enigma_/blob/main/README.md#-what-am-i-looking-at">What am I looking at?</a></li>
