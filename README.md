@@ -65,7 +65,7 @@ The section below describes each of the different features in the program, defin
 This section will explain how to setup and run the code on your own PC.
 
 ### Pre-requisites
-Firstly, do make sure you have [Python]:https://www.python.org/downloads/ downloaded on your computer. 
+Firstly, do make sure you have [Python](https://www.python.org/downloads/) downloaded on your computer. 
 
 The program should work fine on any webcam, but do make sure to adjust the cam_res variable to a resolution your camera is able to support.
 
@@ -93,4 +93,4 @@ $ some other details
 <li>And lastly, thank you for taking the time to partake in my art. :)</li>
 </ul>
 
-[Once again, Do check out Ivan's other projects here!]:https://github.com/Ivan-LZY
+[Once again, Do check out Ivan's other projects here!](https://github.com/Ivan-LZY)
