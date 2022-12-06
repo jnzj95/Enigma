@@ -3,7 +3,7 @@ Image effects built on opencv
 
 ![<img src="https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png" width="250"/>](https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png) ![<img src="https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png" width="250"/>](https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png)
 
-Afterimages
+A few highlights           |  For your perusal
 :-------------------------:|:-------------------------:
 ![](https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png)  |  ![](https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png)
 
