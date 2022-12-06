@@ -8,9 +8,9 @@ Image effects built on opencv
   <li><a href="https://github.com/jnzj95/Enigma_/blob/main/README.md#-what-am-i-looking-at">What am I looking at?</a></li>
   <li><a href="https://github.com/jnzj95/Enigma_/blob/main/README.md#-states">States</a></li>
   <li><a href="https://github.com/jnzj95/Enigma_/blob/main/README.md#-a-word-of-thanks">A word of Thanks</a></li>
-
+</ol>
  
-<h3> What am I looking at?</h3>
+<h2> What am I looking at?</h2>
 
 <p>
 Enigma was developed by myself (<a href="https://github.com/jnzj95">Jack Ng</a>) together with a friend (<a href="https://github.com/Ivan-LZY">Ivan Lim</a>), for a dance piece that I choreographed. The objective for developing this software was to have accompanying visual effects to highlight/obscure certain elements of the dancers' movements, and to offer the audience the option of looking at the same movement from a different perspective.
