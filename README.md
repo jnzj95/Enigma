@@ -41,9 +41,9 @@ The section below describes each of the different features in the program, defin
  ### State 6: Line
  (Description)
  ### State 7: AM_Faded
- <p>(Description)</p>
+ (Description)
  ### State 0: Nothing
- <p>(Description)</p>
+ (Description)
 
 ## How to Setup
 This section will explain how to setup and run your own code.
