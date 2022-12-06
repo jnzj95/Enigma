@@ -1,8 +1,8 @@
 # Enigma
 Image effects built on opencv
-<div style="width:60px ; height:60px">
+
 ![To prove to myself that I could.]("https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png")
-</div>
+
 ## Table of Contents
 <ol>
   <li><a href="https://github.com/jnzj95/Enigma_/blob/main/README.md#-what-am-i-looking-at">What am I looking at?</a></li>
