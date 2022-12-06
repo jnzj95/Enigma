@@ -15,51 +15,80 @@ E.g 1: Afterimages         |  E.g 2: Faded frames
 </ol>
  
 ## What am I looking at?
-<p>
-Enigma was developed by myself (<a href="https://github.com/jnzj95">Jack Ng</a>) together with a friend (<a href="https://github.com/Ivan-LZY">Ivan Lim</a>), for a dance piece that I choreographed. The objective for developing this software was to have accompanying visual effects to highlight/obscure certain elements of the dancers' movements, and to offer the audience the option of looking at the same movement from a different perspective.
-</p>
-<p>
-I wanted to share the code publically to allow anyone who is interested an opportunity to have the program for their own use. Maybe you saw the show and thought of ideas of your own on how to best use the features shown, want to build on an existing idea we presented, or simply want to improvise and explore different possibilities with the programme. I also get bursts of inspiration watching performances, so I thought it would be fun to have this available for everyone's use.
-</p>
 
-<p>(Do reach out if you come up with smth cool! I'm most active on <a href="https://www.instagram.com/jkouutktoawski/">Instagram</a>, and I'd love to see anything built on this :D)</p>
+Enigma was developed by myself (<a href="https://github.com/jnzj95">Jack Ng</a>) together with a friend (<a href="https://github.com/Ivan-LZY">Ivan Lim</a>), for a dance piece that I choreographed. The objective for developing this software was to have accompanying visual effects to highlight/obscure certain elements of the dancers' movements, and to offer the audience the option of looking at the same movement from a different perspective.
+
+
+I wanted to share the code publically to allow anyone who is interested an opportunity to have the program for their own use. Maybe you saw the show and thought of ideas of your own on how to best use the features shown, want to build on an existing idea we presented, or simply want to improvise and explore different possibilities with the programme. I also get bursts of inspiration watching performances, so I thought it would be fun to have this available for everyone's use.
+
+
+(Do reach out if you come up with smth cool! I'm most active on <a href="https://www.instagram.com/jkouutktoawski/">Instagram</a>, and I'd love to see anything built on this :D)
 
 ## States
 The section below describes each of the different features in the program, defined by states. You can change which state you are in using the number keys (NOT the keypad)
+
+
  ### State 1: AM
-  AM creates afterimages of a moving object at a fixed time intervals.
+  AM creates afterimages (AM) of a moving object at a fixed time intervals.
   
-  The time intervals can be controlled by using the constant (Insert time_interval variable here). The number of afterimages can also be changed by changing the constant "afterimage_count" in the code. 
+  The time intervals can be controlled by using the constant (Insert time_interval variable here). The number of AMs can also be changed by changing the constant "afterimage_count" in the code. 
+  On reaching the maximum set number of AMs, the oldest AM will be dumped and replaced with the newest one.
   
   For a more flexible version, see State 2: AM_On_Click.
   
+  
  ### State 2: AM_On_Click
- AM_On_Click is an extension of AM. Which includes a few other functions:
-  #### AM on keypress (Default "o")
-  #### Constant AM (Default "i")
-  #### Diverging AM (Default ";" and "")
-  #### Converging AM (Default "l")
-  #### Trailing off AM (Default "u")
+ AM_On_Click is an extension of AM. Which includes a few other functionalities:
+  #### AM on keypress (Default "O")
+  A 'snapshot' can be created on the user pressing "O", instead of a fixed time interval.
+  #### Constant AM (Default "I")
+  Similar to AM, and is meant to be the equivalent of holding own the "O" key. Pressing "I" will toggle the constant AMs to come on/off.
+  #### Diverging AM (Default save button ";" and load button"")
+  While Constant AMs are running, A sequence of AMs can be saved ";" and replayed " ' ", creating AMs that do not follow the body.
+  #### Converging AM (Default "L")
+  On pressing "L", all but the most recent AM can be dropped. This one still needs work.
+  #### Trailing off AM (Default "U")
+  On pressing "U", similar to converging AM, except ALL AMs are dropped.
   
  
  ### State 3: AM_Forever
-  #### Coloured AMs (Default "a/s/d/z/x/c")
-  #### Randomly Coloured AMs (Default "w")
-  #### White AMs (Default "q")
+ Unlike State 1 and State 2, AM_Forever does not subtract any of its previous frames regardless of time, leading to a saturated screen after some time. Similar to AM_On_Click, AM_Forever also uses "O" and "I" to create AMs.
+ 
+ The different features of AM_Forever include:
+ 
+  #### Coloured AMs (Default "A/S/D/Z/X/C")
+  The user can press any of the above 6 buttons to toggle a different coloured AM to be generated. The preset colours themselves can be changed by changing the RGB values in the colourstate_(colour) constants. 
+  #### Randomly Coloured AMs (Default "W")
+  By pressing "W", a randomly coloured AM can be generated.
+  #### White AMs (Default "Q")
+  A white, slightly lighter AM can be generated as well.
+  
  ### State 4:Brush
- For tracking a single dancer in frame. For multiple bodies, use state 5:Brushstroke_multi
+ Brush allows for a "Brushstroke, which can track a solo dancer in the frame. (For multiple bodies, use state 5:Brushstroke_multi)
+ The features to this State are as follows:
+  #### Line colour
+  The brushstroke can have colours which move through the brushstroke itself (See gif. below).
   #### Bodypart tracking (Left click on Control_Frame to target, "\[" and "\]" to change bodypart being tracked)
+  
+  
  ### State 5: Brushstroke_multi
   #### Swapping target (default "m")
   #### Toggling on Det_Multi (default ",")
+  
+  
  ### State 6: Line
    #### Changing Line thickness/angle/center
    #### Toggling Movement trace (default 't')
+   
+   
  ### State 7: AM_Faded
   #### AM on keypress (Default "o")
   #### Constant AM (Default "i")
+  
+  
  ### State 0: Nothing
   State 0 will just display the frame captured by the camera, with no extra frills.
+  
 
 ## How to Setup
 This section will explain how to setup and run the code on your own PC.
