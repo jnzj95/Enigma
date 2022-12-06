@@ -9,10 +9,10 @@ Afterimages           |  Faded frames
 
 ## Table of Contents
 <ol>
-  <li><a href="https://github.com/jnzj95/Enigma_/blob/main/README.md#-what-am-i-looking-at">What am I looking at?</a></li>
+  <li><a href="https://github.com/jnzj95/Enigma_/blob/main/README.md#what-am-i-looking-at">What am I looking at?</a></li>
   <li><a href="https://github.com/jnzj95/Enigma_/blob/main/README.md#states">States</a></li>
   <li><a href="https://github.com/jnzj95/Enigma_/blob/main/README.md#how-to-setup">How to Setup</a></li>
-  <li><a href="https://github.com/jnzj95/Enigma_/blob/main/README.md#-a-word-of-thanks">A word of Thanks</a></li>
+  <li><a href="https://github.com/jnzj95/Enigma_/blob/main/README.md#a-word-of-thanks">A word of Thanks</a></li>
 </ol>
  
 ## What am I looking at?
