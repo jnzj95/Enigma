@@ -86,13 +86,11 @@ $ some other details
 
 <p>I would like to thank everyone who made this possible, in no particular order:</p>
 <ul>
-<li>My lovely collaborators and dancers, Ivan, Jun Hui, Pei Yao, Say Hua, Zeng Yu, and Chao Jing. Whether its coming up with code improvements without prompt, practicing the movement during your rest times, or asking for more practices, everyone has put in far more effort than I can reasonably expect, all of which I am deeply grateful for. Having people who were committed made a world of difference to me, and I consider myself extremely lucky to have had this chance to work with you all.</li>
+<li>My lovely collaborators and dancers, Ivan, Jun Hui, Pei Yao, Say Hua, Zeng Yu, and Chao Jing. Whether its coming up with code improvements without prompt, practicing the movement during their rest times, or asking for more practices, everyone has put in far more effort than I can reasonably expect, all of which I am deeply grateful for. Working with committed people made a world of difference to me, and I consider myself extremely lucky to have had this chance to work with you all.</li>
 <li>My endlessly encouraging mentor, Anthea, whose input helped give direction to the work. Having someone who believed in the work long before it was presentable was incredibly motivating.</li>
-<li>Aik Song and Mus for their early contributions to the work. I hope to work with you both at some point in the future.</li>
-<li>Sigma Contemporary Dance for providing the platform.</li>
+<li>Aik Song and Mus for their early contributions to the work, and subsequent input. I hope to work with you both at some point in the future.</li>
+<li>Sigma Contemporary Dance for providing the platform, and taking the chance for an inexperienced choreographer like me.</li>
 <li>And lastly, thank you for taking the time to partake in my art. :)</li>
 </ul>
 
-<p>
- <a href="https://github.com/Ivan-LZY">Once again, Do check out Ivan's other projects here!</a> 
-</p>
+[Once again, Do check out Ivan's other projects here!]:https://github.com/Ivan-LZY
