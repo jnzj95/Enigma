@@ -6,7 +6,7 @@ Image effects built on opencv
 <h2>Table of Contents</h2>
 <ol>
   <li><a href="https://github.com/jnzj95/Enigma_/blob/main/README.md#-what-am-i-looking-at">What am I looking at?</a></li>
-  <li><a href="https://github.com/jnzj95/Enigma_/blob/main/README.md#-states">States</a></li>
+  <li><a href="https://github.com/jnzj95/Enigma_/blob/main/README.md#states">States</a></li>
   <li><a href="https://github.com/jnzj95/Enigma_/blob/main/README.md#-a-word-of-thanks">A word of Thanks</a></li>
 </ol>
  
