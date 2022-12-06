@@ -25,28 +25,26 @@ I wanted to share the code publically to allow anyone who is interested an oppor
 <p>
 The section below describes each of the different features in the program, defined by states. You can change which state you are in using the number keys (NOT the keypad)
 </p>
-<ol>
- <li><h3>State 1: AM</h3></li>
+ ### State 1: AM
   <p>AM creates afterimages of a moving object at a fixed time intervals.</p>
   <p>The time intervals can be controlled by using the constant (Insert time_interval variable here). The number of afterimages can also be changed by changing the constant "afterimage_count" in the code. </p>
   <p>For a more flexible version, see State 2: AM_On_Click.</p>
- <li><h3>State 2: AM_On_Click</h3></li>
+ ### State 2: AM_On_Click
  <p>(Insert Div save, div load here)</p>
- <li><h3>State 3: AM_Forever</h3></li>
+ ### State 3: AM_Forever
  <p>(Diff colours, permanently cover projection in col/white)</p>
- <li><h3>State 4:Brush</h3></li>
+ ### State 4:Brush
  <p>(Description)</p>
- <li><h3>State 5: Brushstroke_multi</h3></li>
+ ### State 5: Brushstroke_multi
  <p>(Description)</p>
- <li><h3>State 6: Line</h3></li>
+ ### State 6: Line
  <p>(Description)</p>
- <li><h3>State 7: AM_Faded</h3></li>
+ ### State 7: AM_Faded
  <p>(Description)</p>
- <li><h3>State 0: Nothing</h3></li>
+ ### State 0: Nothing
  <p>(Description)</p>
-</ol>
 
-<h2>How to Setup</h2>
+## How to Setup
 <p>This section will explain how to setup and run your own code</p>
 <p>Pre-requisites (Python)</p>
 <p>Downloading requirements</p>
@@ -56,7 +54,7 @@ $ cmake download requirements
 $ some other details
 ```
 
-<h2> A word of Thanks</h2>
+## A word of Thanks
 <p>I would like to thank everyone who made this possible, in no particular order:</p>
 <ul>
 <li>My lovely collaborators and dancers, Ivan, Jun Hui, Pei Yao, Say Hua, Zeng Yu, and Chao Jing. Whether its coming up with code improvements without prompt, practicing the movement during your rest times, or asking for more practices, everyone has put in far more effort than I can reasonably expect, all of which I am deeply grateful for. Having people who were committed made a world of difference to me, and I consider myself extremely lucky to have had this chance to work with you all.</li>
