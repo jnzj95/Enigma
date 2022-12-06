@@ -5,7 +5,7 @@ A few highlights           |  For your perusal
 :-------------------------:|:-------------------------:
 ![](https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png)  |  ![](https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png)
 
-<!---/![<p align="center"><img src="https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png" width="200" /></p>](https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png)--->
+<!---![<p align="center"><img src="https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png" width="200" /></p>](https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png)--->
 
 ## Table of Contents
 <ol>
