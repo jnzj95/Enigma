@@ -4,7 +4,7 @@ Image effects built on opencv
 ![<img src="https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png" width="250"/>](https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png) ![<img src="https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png" width="250"/>](https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png)
 
 
-![<p align="center"><img src="https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png" width="250" align="center"/></p>](https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png)
+![<p align="center"><img src="https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png" width="250"/></p>](https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png)
 
 ## Table of Contents
 <ol>
