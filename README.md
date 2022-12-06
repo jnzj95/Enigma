@@ -1,9 +1,7 @@
 # Enigma
 Image effects built on opencv
 
-![To prove to myself that I could.](https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png)
-
-[<img src="https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png" width="150" />](https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png)
+[<img src="https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png" width="150" />]( )
 
 ## Table of Contents
 <ol>
