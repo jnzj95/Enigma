@@ -3,7 +3,7 @@ Image effects built on opencv
 <p align="center">
   <img src ="https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png" title="To prove to myself that I could.">
  </p>
-<h2>Table of Contents</h2>
+##Table of Contents
 <ol>
   <li><a href="https://github.com/jnzj95/Enigma_/blob/main/README.md#-what-am-i-looking-at">What am I looking at?</a></li>
   <li><a href="https://github.com/jnzj95/Enigma_/blob/main/README.md#states">States</a></li>
@@ -11,8 +11,7 @@ Image effects built on opencv
   <li><a href="https://github.com/jnzj95/Enigma_/blob/main/README.md#-a-word-of-thanks">A word of Thanks</a></li>
 </ol>
  
-<h2> What am I looking at?</h2>
-
+##What am I looking at?
 <p>
 Enigma was developed by myself (<a href="https://github.com/jnzj95">Jack Ng</a>) together with a friend (<a href="https://github.com/Ivan-LZY">Ivan Lim</a>), for a dance piece that I choreographed. The objective for developing this software was to have accompanying visual effects to highlight/obscure certain elements of the dancers' movements, and to offer the audience the option of looking at the same movement from a different perspective.
 </p>
@@ -22,7 +21,7 @@ I wanted to share the code publically to allow anyone who is interested an oppor
 
 <p>(Do reach out if you come up with smth cool! I'm most active on <a href="https://www.instagram.com/jkouutktoawski/">Instagram</a>, and I'd love to see anything built on this :D)</p>
 
-#<h2>States</h2>
+##States
 <p>
 The section below describes each of the different features in the program, defined by states. You can change which state you are in using the number keys (NOT the keypad)
 </p>
