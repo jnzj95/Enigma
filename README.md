@@ -3,6 +3,8 @@ Image effects built on opencv
 
 ![To prove to myself that I could.](https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png)
 
+[<img src="https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png" width="150" />](https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png)
+
 ## Table of Contents
 <ol>
   <li><a href="https://github.com/jnzj95/Enigma_/blob/main/README.md#-what-am-i-looking-at">What am I looking at?</a></li>
