@@ -40,7 +40,7 @@ The section below describes each of the different features in the program, defin
  AM_On_Click is an extension of AM. Which includes a few other functionalities:
   #### AM on keypress (Default "O")
   A 'snapshot' can be created on the user pressing "O", instead of a fixed time interval.
-  ![AM_On_Click_O_pic](https://user-images.githubusercontent.com/63090470/206217929-93b90e56-04a7-4d81-9aba-25775c76c180.png)  
+  [![](https://user-images.githubusercontent.com/63090470/206217929-93b90e56-04a7-4d81-9aba-25775c76c180.png)](https://raw.githubusercontent.com/jnzj95/Enigma_/main/vids_4_README/AM_On_Click_O.mp4?token=GHSAT0AAAAAAB4CCCMGCMIJXDEXYGMULTBEY4QW4SA)  
   
   #### Constant AM (Default "I")
   Similar to AM, and is meant to be the equivalent of holding own the "O" key. Pressing "I" will toggle the constant AMs to come on/off.
