@@ -44,8 +44,7 @@ The section below describes each of the different features in the program, defin
   
   #### Constant AM (Default "I")
   Similar to AM, and is meant to be the equivalent of holding own the "O" key. Pressing "I" will toggle the constant AMs to come on/off.
-  ![AM_On_Click_I_pic](https://user-images.githubusercontent.com/63090470/206218027-e230608c-f336-45ff-9f67-941ae60ff990.png)
-
+  [![](https://user-images.githubusercontent.com/63090470/206218027-e230608c-f336-45ff-9f67-941ae60ff990.png)](https://raw.githubusercontent.com/jnzj95/Enigma_/main/vids_4_README/AM_On_Click_I.mp4?token=GHSAT0AAAAAAB4CCCMG22WHWR4BODLBTDUAY4QWXQQ)
   
   
   #### Diverging AM (Default save button ";" and load button" ' ")
