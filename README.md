@@ -2,7 +2,7 @@
 Image effects built on opencv
 
 
-![](https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png)  |  ![](https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png)
+![](https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png)  |  
 :-------------------------:|:-------------------------:
 E.g 1: Afterimages         |  E.g 2: Faded frames
 
@@ -17,7 +17,6 @@ E.g 1: Afterimages         |  E.g 2: Faded frames
 ## What am I looking at?
 
 Enigma was developed by myself (<a href="https://github.com/jnzj95">Jack Ng</a>) together with a friend (<a href="https://github.com/Ivan-LZY">Ivan Lim</a>), for a dance piece that I choreographed. The objective for developing this software was to have accompanying visual effects to highlight/obscure certain elements of the dancers' movements, and to offer the audience the option of looking at the same movement from a different perspective.
-
 
 I wanted to share the code publically to allow anyone who is interested an opportunity to have the program for their own use. Maybe you saw the show and thought of ideas of your own on how to best use the features shown, want to build on an existing idea we presented, or simply want to improvise and explore different possibilities with the programme. I also get bursts of inspiration watching performances, so I thought it would be fun to have this available for everyone's use.
 
@@ -41,15 +40,28 @@ The section below describes each of the different features in the program, defin
  AM_On_Click is an extension of AM. Which includes a few other functionalities:
   #### AM on keypress (Default "O")
   A 'snapshot' can be created on the user pressing "O", instead of a fixed time interval.
+  ![AM_On_Click_O_pic](https://user-images.githubusercontent.com/63090470/206217929-93b90e56-04a7-4d81-9aba-25775c76c180.png)  
+  
   #### Constant AM (Default "I")
   Similar to AM, and is meant to be the equivalent of holding own the "O" key. Pressing "I" will toggle the constant AMs to come on/off.
-  #### Diverging AM (Default save button ";" and load button"")
+  ![AM_On_Click_I_pic](https://user-images.githubusercontent.com/63090470/206218027-e230608c-f336-45ff-9f67-941ae60ff990.png)
+
+  
+  
+  #### Diverging AM (Default save button ";" and load button" ' ")
   While Constant AMs are running, A sequence of AMs can be saved ";" and replayed " ' ", creating AMs that do not follow the body.
+    https://user-images.githubusercontent.com/63090470/206219148-7477cef8-f9e8-42e4-8c07-e46bb1f6d3ee.mp4
+
+  After a sequence is saved, it can be replayed on pressing " ' "
+    https://user-images.githubusercontent.com/63090470/206219933-e3bf3348-63c9-4b36-b047-1ed816b0fb34.mp4
+  
   #### Converging AM (Default "L")
   On pressing "L", all but the most recent AM can be dropped. This one still needs work.
   #### Trailing off AM (Default "U")
   On pressing "U", similar to converging AM, except ALL AMs are dropped.
-  
+    https://user-images.githubusercontent.com/63090470/206219856-96f94018-2d03-4078-ae82-d7ece1406da8.mp4
+
+
  
  ### State 3: AM_Forever
  Unlike State 1 and State 2, AM_Forever does not subtract any of its previous frames regardless of time, leading to a saturated screen after some time. Similar to AM_On_Click, AM_Forever also uses "O" and "I" to create AMs.
@@ -60,6 +72,11 @@ The section below describes each of the different features in the program, defin
   The user can press any of the above 6 buttons to toggle a different coloured AM to be generated. The preset colours themselves can be changed by changing the RGB values in the colourstate_(colour) constants. 
   #### Randomly Coloured AMs (Default "W")
   By pressing "W", a randomly coloured AM can be generated.
+  ![AM_Forever_random_pic](https://user-images.githubusercontent.com/63090470/206218435-b053e11f-7d97-461c-8e0b-baeef1478919.png)
+    https://user-images.githubusercontent.com/63090470/206220161-51204107-efec-4d65-898f-029d334b6087.mp4
+
+
+  
   #### White AMs (Default "Q")
   A white, slightly lighter AM can be generated as well.
   
@@ -79,7 +96,7 @@ The section below describes each of the different features in the program, defin
  ### State 6: Line
    #### Changing Line thickness/angle/center
    #### Toggling Movement trace (default 't')
-   
+    
    
  ### State 7: AM_Faded
   #### AM on keypress (Default "o")
