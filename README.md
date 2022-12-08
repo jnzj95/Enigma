@@ -1,5 +1,5 @@
 # Enigma
-Image effects built on opencv
+Real-time video effects built on opencv
 
 
 ![](https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png)  |  
@@ -40,7 +40,11 @@ The section below describes each of the different features in the program, defin
  AM_On_Click is an extension of AM. Which includes a few other functionalities:
   #### AM on keypress (Default "O")
   A 'snapshot' can be created on the user pressing "O", instead of a fixed time interval.
+  [<img src="./assets/sql.svg" width="30" />](./link/to/sql/file)
   [![](https://user-images.githubusercontent.com/63090470/206217929-93b90e56-04a7-4d81-9aba-25775c76c180.png)](https://raw.githubusercontent.com/jnzj95/Enigma_/main/vids_4_README/AM_On_Click_O.mp4?token=GHSAT0AAAAAAB4CCCMGCMIJXDEXYGMULTBEY4QW4SA)  
+  
+  [<img src="https://user-images.githubusercontent.com/63090470/206217929-93b90e56-04a7-4d81-9aba-25775c76c180.png" width="640" align = "middle"/>](https://raw.githubusercontent.com/jnzj95/Enigma_/main/vids_4_README/AM_On_Click_O.mp4?token=GHSAT0AAAAAAB4CCCMGCMIJXDEXYGMULTBEY4QW4SA)
+  
   
   #### Constant AM (Default "I")
   Similar to AM, and is meant to be the equivalent of holding own the "O" key. Pressing "I" will toggle the constant AMs to come on/off.
@@ -82,9 +86,11 @@ The section below describes each of the different features in the program, defin
  ### State 4:Brush
  Brush allows for a "Brushstroke, which can track a solo dancer in the frame. (For multiple bodies, use state 5:Brushstroke_multi)
  The features to this State are as follows:
-  #### Line colour
+
+  #### Brushstroke colour
   The brushstroke can have colours which move through the brushstroke itself (See gif. below).
   #### Bodypart tracking (Left click on Control_Frame to target, "\[" and "\]" to change bodypart being tracked)
+    [![](https://user-images.githubusercontent.com/63090470/206218027-e230608c-f336-45ff-9f67-941ae60ff990.png)]  (https://github.com/jnzj95/Enigma_/blob/main/vids_4_README/Brush.mp4?raw=true)
   
   
  ### State 5: Brushstroke_multi
