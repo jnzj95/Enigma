@@ -26,8 +26,8 @@ I wanted to share the code publically to allow anyone who is interested an oppor
 The section below describes each of the different features in the program, defined by states. You can change which state you are in using the number keys (**NOT the keypad**)
 
 
-### State 1: AM
-***AM*** creates afterimages (AM) of a moving object at a fixed time intervals.
+### State 1: AM_BPM
+***AM_BPM*** creates afterimages (AM) of a moving object at a fixed time intervals.
   
 The time intervals can be controlled by using the constant (Insert time_interval variable here). The number of AMs can also be changed by changing the constant "afterimage_count" in the code. 
 On reaching the maximum set number of AMs, the oldest AM will be dumped and replaced with the newest one.
@@ -36,16 +36,17 @@ For a more flexible version, see State 2: ***AM_On_Click***.
   
   
 ### State 2: AM_On_Click
-***AM_On_Click*** is an extension of ***AM***. Which includes a few other functionalities.
+***AM_On_Click*** is an extension of ***AM_BPM***. Which includes a few other functionalities.
 
 ***AM_On_Click*** related controls Are as shown below:
 
 Input  |  Function
 :---:|:---:
-O        |   Create New AM
-I        |   Toggle Constant AM
+O        |   Create New AMs
+I        |   Toggle Constant AMs
 ;        |   Save Diverging AM sequence
-'        |   Load Diverging AM sequence
+'        |   Load Diverging AM sequence=
+K        |   Show/Hide AMs
 L        |   Converge AM
 U        |   Trailing off AM
 
@@ -55,7 +56,7 @@ A 'snapshot' can be created on the user pressing "O", instead of a fixed time in
 [<p align="center"><img src="https://user-images.githubusercontent.com/63090470/206217929-93b90e56-04a7-4d81-9aba-25775c76c180.png" width="640"/></p>](https://raw.githubusercontent.com/jnzj95/Enigma_/main/vids_4_README/AM_On_Click_O.mp4?token=GHSAT0AAAAAAB4CCCMGCMIJXDEXYGMULTBEY4QW4SA)
   
   #### Constant AM (Default "I")
- Similar to ***AM***, and is meant to be the equivalent of holding own the "O" key. Pressing "I" will toggle the constant AMs to come on/off.
+ Similar to ***AM_BPM***, and is meant to be the equivalent of holding own the "O" key. Pressing "I" will toggle the constant AMs to come on/off.
   
   
   [<p align="center"><img src="https://user-images.githubusercontent.com/63090470/206218027-e230608c-f336-45ff-9f67-941ae60ff990.png" width="640"/></p>](https://raw.githubusercontent.com/jnzj95/Enigma_/main/vids_4_README/AM_On_Click_I.mp4?token=GHSAT0AAAAAAB4CCCMG22WHWR4BODLBTDUAY4QWXQQ)
@@ -184,20 +185,27 @@ G        |   Move Up
 B        |   Move Down
 V        |   Move Left
 N        |   Move Right
-F        |   Rotate Anti-Clockwise
-H        |   Rotate Clockwise
+F        |   Increase Line thickness
+H        |   Decrease Line thickenss 
+Y        |   Rotate Anti-Clockwise
+R        |   Rotate Clockwise
 T        |   Toggle Trace
 
 #### Changing Line thickness/angle/center
 
-The line can be controlled using the controls below:
+Using the controls in the table above, the line's position, thickness, and angle can be adjusted.
 
+(Insert demo video)
 
+#### Toggling Movement trace (default 'T')
 
-#### Toggling Movement trace (default 't')
-    
+On pressing 'T', a trace of the dancers's movements can be toggled on/off, as shown in the video below. Note the dancers walking into frame are not seen, but the arm can be seen.
+
+(Insert the McD part with PY here)
    
 ### State 7: AM_Faded
+
+***AM_Faded*** is a state which creates a faded effect. The underlying function that creates these frames is different from ***AM_BPM*** and ***AM_On_Click***, but the effect is similar.
 
 ***AM_Faded*** related controls are as shown below:
 
@@ -206,12 +214,28 @@ Input  |  Function
 O        |   Create New Faded AM
 I        |   Toggle Constant Fade
 
-
 #### AM on keypress (Default "o")
+Pressing "O" creates a 'snapshot' of a faded frame at the point "O" is pressed. 
+
 #### Constant AM (Default "i")
-  
-  
-### State 0: Nothing
+Pressing "I" toggles on/off the faded frame effect. 
+
+
+
+### Other Functions
+
+Below are a list of other keys that can be used regardless of ***state***.
+
+Input  |  Function
+:---:|:---:
+0        |   State ***Nothing***
+E        |   Reset (For ***AM_On_Click***, ***AM_Forever***, ***AM_Line***)
+\-       |   -1 Max. AM (For ***AM_BPM***, ***AM_On_Click***, ***AM_Faded***)
+\=       |   +1 Max. AM (For ***AM_BPM***, ***AM_On_Click***, ***AM_Faded***)
+P        |   Show Text
+.        |   Increase Refresh Beat interval (Obsolete)
+/       |   Decrease Refresh Beat interval (Obsolete)
+
 State 0 will just display the frame captured by the camera, with no extra frills.
   
 
