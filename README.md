@@ -2,7 +2,7 @@
 Real-time video effects built on opencv
 
 
-![](https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png)  |  
+![](https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png)  |  Hello!
 :-------------------------:|:-------------------------:
 E.g 1: Afterimages         |  E.g 2: Faded frames
 
@@ -23,27 +23,39 @@ I wanted to share the code publically to allow anyone who is interested an oppor
 (Do reach out if you come up with smth cool! I'm most active on <a href="https://www.instagram.com/jkouutktoawski/">Instagram</a>, and I'd love to see anything built on this :D)
 
 ## States
-The section below describes each of the different features in the program, defined by states. You can change which state you are in using the number keys (NOT the keypad)
+The section below describes each of the different features in the program, defined by states. You can change which state you are in using the number keys (**NOT the keypad**)
 
 
 ### State 1: AM
-AM creates afterimages (AM) of a moving object at a fixed time intervals.
+***AM*** creates afterimages (AM) of a moving object at a fixed time intervals.
   
 The time intervals can be controlled by using the constant (Insert time_interval variable here). The number of AMs can also be changed by changing the constant "afterimage_count" in the code. 
 On reaching the maximum set number of AMs, the oldest AM will be dumped and replaced with the newest one.
   
-For a more flexible version, see State 2: AM_On_Click.
+For a more flexible version, see State 2: ***AM_On_Click***.
   
   
 ### State 2: AM_On_Click
-AM_On_Click is an extension of AM. Which includes a few other functionalities:
+***AM_On_Click*** is an extension of ***AM***. Which includes a few other functionalities.
+
+***AM_On_Click*** related controls Are as shown below:
+
+Input  |  Function
+:---:|:---:
+O        |   Create New AM
+I        |   Toggle Constant AM
+;        |   Save Diverging AM sequence
+'        |   Load Diverging AM sequence
+L        |   Converge AM
+U        |   Trailing off AM
+
  #### AM on keypress (Default "O")
 A 'snapshot' can be created on the user pressing "O", instead of a fixed time interval.
   
 [<p align="center"><img src="https://user-images.githubusercontent.com/63090470/206217929-93b90e56-04a7-4d81-9aba-25775c76c180.png" width="640"/></p>](https://raw.githubusercontent.com/jnzj95/Enigma_/main/vids_4_README/AM_On_Click_O.mp4?token=GHSAT0AAAAAAB4CCCMGCMIJXDEXYGMULTBEY4QW4SA)
   
   #### Constant AM (Default "I")
- Similar to AM, and is meant to be the equivalent of holding own the "O" key. Pressing "I" will toggle the constant AMs to come on/off.
+ Similar to ***AM***, and is meant to be the equivalent of holding own the "O" key. Pressing "I" will toggle the constant AMs to come on/off.
   
   
   [<p align="center"><img src="https://user-images.githubusercontent.com/63090470/206218027-e230608c-f336-45ff-9f67-941ae60ff990.png" width="640"/></p>](https://raw.githubusercontent.com/jnzj95/Enigma_/main/vids_4_README/AM_On_Click_I.mp4?token=GHSAT0AAAAAAB4CCCMG22WHWR4BODLBTDUAY4QWXQQ)
@@ -74,9 +86,25 @@ https://user-images.githubusercontent.com/63090470/206219856-96f94018-2d03-4078-
 
 ### State 3: AM_Forever
 
-Unlike State 1 and State 2, AM_Forever does not subtract any of its previous frames regardless of time, leading to a saturated screen after some time. Similar to AM_On_Click, AM_Forever also uses "O" and "I" to create AMs.
+
+
+Unlike State 1 and State 2, ***AM_Forever*** does not subtract any of its previous frames regardless of time, leading to a saturated screen after some time. Similar to ***AM_On_Click***, ***AM_Forever*** also uses "O" and "I" to create AMs.
  
-The different features of AM_Forever include:
+***AM_Forever*** related controls are as shown below:
+
+Input  |  Function
+:---:|:---:
+O        |   Create New AM
+I        |   Toggle Constant AM
+Q        |   Toggle White AMs
+A        |   Toggle Red AMs
+S        |   Toggle Blue AMs
+D        |   Toggle Green AMs
+Z        |   Toggle Yellow AMs
+X        |   Toggle Sky Blue AMs
+C        |   Toggle Dark Violet AMs
+
+The different features of ***AM_Forever*** include:
  
 #### Coloured AMs (Default "A/S/D/Z/X/C")
 
@@ -95,8 +123,23 @@ https://user-images.githubusercontent.com/63090470/206220161-51204107-efec-4d65-
 A white, slightly lighter AM can be generated as well.
   
 ### State 4:Brush
-Brush allows for a "Brushstroke, which can track a solo dancer in the frame. (For multiple bodies, use state 5:Brushstroke_multi)
+***Brush*** allows for a Brushstroke to be created in the frame, which can track a solo dancer. (For multiple bodies, use state 5:***Brushstroke_multi***)
+
+***Brush*** related controls are as shown below:
+
+Input  |  Function
+:---:|:---:
+L.Click  |   Initiate New Teack
+H        |   Add Colour to Brushstroke
+J        |   Remove Colour from Brushstroke
+\[       |   Change Body Index (-1 to index)
+\]       |   Change Body Index (+1 to index)
+
 The features to this State are as follows:
+
+#### Initiate Track
+The tracking is initiated by clicking on the ***Control_Frame*** when the program is running. 
+
 
 #### Brushstroke colour
 The brushstroke can have colours which move through the brushstroke itself (See video below).
@@ -106,16 +149,64 @@ The brushstroke can have colours which move through the brushstroke itself (See 
   
   
 ### State 5: Brushstroke_multi
-#### Swapping target (default "m")
+
+Input  |  Function
+:---:|:---:
+L.Click  |   Initiate New Teack
+H        |   Add Colour to Brushstroke
+J        |   Remove Colour from Brushstroke
+M        |   Swap Target
+,        |   Toggling on Dancetrack Tracking
+
+***Brushstroke_multi*** is a state which allows more than one dancer to be tracked in the frame. So far, tests have been conducted with only two dancers in the frame, but tracking more bodies simultaneously should be possible.
+
+Initating a track and changing the brushstroke colour is performed identically to how it is done in ***Brush***.
+
+#### Swapping targets (default "M")
+
+On pressing "M", the programme identifies all bodies in frame, and selects the furthest body as its new target. (My guess if if you have X bodies, the software will just find the one furthest away from the latest point found).
+
 #### Toggling on Det_Multi (default ",")
-  
-  
+
+On pressing ",", the programme continually updates the new point every X number of loops passed.
+
+However, this is computationally taxing, which will cause the framerate to suffer, and hence should be used sparingly.
+
+(1 video of both functions in action)
+
 ### State 6: Line
+
+***Line*** is a state where a line is drawn across the frame. The colour, dimensions, and effects of the line can be controlled using the following inputs:
+
+Input  |  Function
+:---:|:---:
+G        |   Move Up
+B        |   Move Down
+V        |   Move Left
+N        |   Move Right
+F        |   Rotate Anti-Clockwise
+H        |   Rotate Clockwise
+T        |   Toggle Trace
+
 #### Changing Line thickness/angle/center
+
+The line can be controlled using the controls below:
+
+
+
 #### Toggling Movement trace (default 't')
     
    
 ### State 7: AM_Faded
+
+***AM_Faded*** related controls are as shown below:
+
+Input  |  Function
+:---:|:---:
+O        |   Create New Faded AM
+I        |   Toggle Constant Fade
+
+
 #### AM on keypress (Default "o")
 #### Constant AM (Default "i")
   
