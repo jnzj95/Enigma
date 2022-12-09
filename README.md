@@ -217,24 +217,26 @@ I        |   Toggle Constant Fade
 #### AM on keypress (Default "o")
 Pressing "O" creates a 'snapshot' of a faded frame at the point "O" is pressed. 
 
+(Insert the group "warping")
+
 #### Constant AM (Default "i")
 Pressing "I" toggles on/off the faded frame effect. 
 
-
+(Insert the gesture set)
 
 ### Other Functions
 
-Below are a list of other keys that can be used regardless of ***state***.
+Below are a list of other keys that can be used regardless of ***State***.
 
-Input  |  Function
-:---:|:---:
-0        |   State ***Nothing***
-E        |   Reset (For ***AM_On_Click***, ***AM_Forever***, ***AM_Line***)
-\-       |   -1 Max. AM (For ***AM_BPM***, ***AM_On_Click***, ***AM_Faded***)
-\=       |   +1 Max. AM (For ***AM_BPM***, ***AM_On_Click***, ***AM_Faded***)
-P        |   Show Text
-.        |   Increase Refresh Beat interval (Obsolete)
-/       |   Decrease Refresh Beat interval (Obsolete)
+Input  |  Function    | Explanation
+:---:|:---:|:---:
+0        |   State ***Nothing***              | Sets state to ***Nothing***, which is just the camera feed without effects
+E        |   Reset State                      | Resets current ***State*** to original. For ***AM_On_Click***, ***AM_Forever***, ***AM_Line***
+\-       |   -1 Max. AM                       | Adds 1 maximum AM. For ***AM_BPM***, ***AM_On_Click***, ***AM_Faded***
+\=       |   +1 Max. AM                       | Removes 1 maximum AM. For ***AM_BPM***, ***AM_On_Click***, ***AM_Faded***
+P        |   Show Text                        | Displays text, from my_text.txt, on the screen
+.        |  Increase Refresh Beat interval    | Increases the beat interval that a new AM is generated (Obsolete)
+/        |   Decrease Refresh Beat interval   | Decreases the beat interval that a new AM is generated (Obsolete)
 
 State 0 will just display the frame captured by the camera, with no extra frills.
   
