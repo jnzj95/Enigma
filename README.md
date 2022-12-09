@@ -20,96 +20,108 @@ Enigma was developed by myself (<a href="https://github.com/jnzj95">Jack Ng</a>)
 
 I wanted to share the code publically to allow anyone who is interested an opportunity to have the program for their own use. Maybe you saw the show and thought of ideas of your own on how to best use the features shown, want to build on an existing idea we presented, or simply want to improvise and explore different possibilities with the programme. I also get bursts of inspiration watching performances, so I thought it would be fun to have this available for everyone's use.
 
-
 (Do reach out if you come up with smth cool! I'm most active on <a href="https://www.instagram.com/jkouutktoawski/">Instagram</a>, and I'd love to see anything built on this :D)
 
 ## States
 The section below describes each of the different features in the program, defined by states. You can change which state you are in using the number keys (NOT the keypad)
 
 
- ### State 1: AM
-  AM creates afterimages (AM) of a moving object at a fixed time intervals.
+### State 1: AM
+AM creates afterimages (AM) of a moving object at a fixed time intervals.
   
-  The time intervals can be controlled by using the constant (Insert time_interval variable here). The number of AMs can also be changed by changing the constant "afterimage_count" in the code. 
-  On reaching the maximum set number of AMs, the oldest AM will be dumped and replaced with the newest one.
+The time intervals can be controlled by using the constant (Insert time_interval variable here). The number of AMs can also be changed by changing the constant "afterimage_count" in the code. 
+On reaching the maximum set number of AMs, the oldest AM will be dumped and replaced with the newest one.
   
-  For a more flexible version, see State 2: AM_On_Click.
+For a more flexible version, see State 2: AM_On_Click.
   
   
- ### State 2: AM_On_Click
- AM_On_Click is an extension of AM. Which includes a few other functionalities:
-  #### AM on keypress (Default "O")
-  A 'snapshot' can be created on the user pressing "O", instead of a fixed time interval.
-  [<img src="./assets/sql.svg" width="30" />](./link/to/sql/file)
-  [![](https://user-images.githubusercontent.com/63090470/206217929-93b90e56-04a7-4d81-9aba-25775c76c180.png)](https://raw.githubusercontent.com/jnzj95/Enigma_/main/vids_4_README/AM_On_Click_O.mp4?token=GHSAT0AAAAAAB4CCCMGCMIJXDEXYGMULTBEY4QW4SA)  
+### State 2: AM_On_Click
+AM_On_Click is an extension of AM. Which includes a few other functionalities:
+ #### AM on keypress (Default "O")
+A 'snapshot' can be created on the user pressing "O", instead of a fixed time interval.
   
-  [<img src="https://user-images.githubusercontent.com/63090470/206217929-93b90e56-04a7-4d81-9aba-25775c76c180.png" width="640" align = "middle"/>](https://raw.githubusercontent.com/jnzj95/Enigma_/main/vids_4_README/AM_On_Click_O.mp4?token=GHSAT0AAAAAAB4CCCMGCMIJXDEXYGMULTBEY4QW4SA)
-  
+[<p align="center"><img src="https://user-images.githubusercontent.com/63090470/206217929-93b90e56-04a7-4d81-9aba-25775c76c180.png" width="640"/></p>](https://raw.githubusercontent.com/jnzj95/Enigma_/main/vids_4_README/AM_On_Click_O.mp4?token=GHSAT0AAAAAAB4CCCMGCMIJXDEXYGMULTBEY4QW4SA)
   
   #### Constant AM (Default "I")
-  Similar to AM, and is meant to be the equivalent of holding own the "O" key. Pressing "I" will toggle the constant AMs to come on/off.
-  [![](https://user-images.githubusercontent.com/63090470/206218027-e230608c-f336-45ff-9f67-941ae60ff990.png)](https://raw.githubusercontent.com/jnzj95/Enigma_/main/vids_4_README/AM_On_Click_I.mp4?token=GHSAT0AAAAAAB4CCCMG22WHWR4BODLBTDUAY4QWXQQ)
+ Similar to AM, and is meant to be the equivalent of holding own the "O" key. Pressing "I" will toggle the constant AMs to come on/off.
   
   
-  #### Diverging AM (Default save button ";" and load button" ' ")
-  While Constant AMs are running, A sequence of AMs can be saved ";" and replayed " ' ", creating AMs that do not follow the body.
-    https://user-images.githubusercontent.com/63090470/206219148-7477cef8-f9e8-42e4-8c07-e46bb1f6d3ee.mp4
-
-  After a sequence is saved, it can be replayed on pressing " ' "
-    https://user-images.githubusercontent.com/63090470/206219933-e3bf3348-63c9-4b36-b047-1ed816b0fb34.mp4
+  [<p align="center"><img src="https://user-images.githubusercontent.com/63090470/206218027-e230608c-f336-45ff-9f67-941ae60ff990.png" width="640"/></p>](https://raw.githubusercontent.com/jnzj95/Enigma_/main/vids_4_README/AM_On_Click_I.mp4?token=GHSAT0AAAAAAB4CCCMG22WHWR4BODLBTDUAY4QWXQQ)
   
-  #### Converging AM (Default "L")
-  On pressing "L", all but the most recent AM can be dropped. This one still needs work.
-  #### Trailing off AM (Default "U")
-  On pressing "U", similar to converging AM, except ALL AMs are dropped.
-    https://user-images.githubusercontent.com/63090470/206219856-96f94018-2d03-4078-ae82-d7ece1406da8.mp4
+  
+#### Diverging AM (Default save button ";" and load button" ' ")
+  While Constant AMs are running, A sequence of AMs can be saved ";" and replayed " ' ", creating AMs that do not follow the body. 
+
+  
+https://user-images.githubusercontent.com/63090470/206219148-7477cef8-f9e8-42e4-8c07-e46bb1f6d3ee.mp4
 
 
+
+
+After a sequence is saved, it can be replayed on pressing " ' "
+  
+  
+https://user-images.githubusercontent.com/63090470/206219933-e3bf3348-63c9-4b36-b047-1ed816b0fb34.mp4
+  
+#### Converging AM (Default "L")
+On pressing "L", all but the most recent AM can be dropped. This one still needs work.
+#### Trailing off AM (Default "U")
+On pressing "U", similar to converging AM, except ALL AMs are dropped.
+
+
+https://user-images.githubusercontent.com/63090470/206219856-96f94018-2d03-4078-ae82-d7ece1406da8.mp4
+
+
+### State 3: AM_Forever
+
+Unlike State 1 and State 2, AM_Forever does not subtract any of its previous frames regardless of time, leading to a saturated screen after some time. Similar to AM_On_Click, AM_Forever also uses "O" and "I" to create AMs.
  
- ### State 3: AM_Forever
- Unlike State 1 and State 2, AM_Forever does not subtract any of its previous frames regardless of time, leading to a saturated screen after some time. Similar to AM_On_Click, AM_Forever also uses "O" and "I" to create AMs.
+The different features of AM_Forever include:
  
- The different features of AM_Forever include:
- 
-  #### Coloured AMs (Default "A/S/D/Z/X/C")
-  The user can press any of the above 6 buttons to toggle a different coloured AM to be generated. The preset colours themselves can be changed by changing the RGB values in the colourstate_(colour) constants. 
-  #### Randomly Coloured AMs (Default "W")
-  By pressing "W", a randomly coloured AM can be generated.
-  ![AM_Forever_random_pic](https://user-images.githubusercontent.com/63090470/206218435-b053e11f-7d97-461c-8e0b-baeef1478919.png)
-    https://user-images.githubusercontent.com/63090470/206220161-51204107-efec-4d65-898f-029d334b6087.mp4
+#### Coloured AMs (Default "A/S/D/Z/X/C")
+
+The user can press any of the above 6 buttons to toggle a different coloured AM to be generated. The preset colours themselves can be changed by changing the RGB values in the colourstate_(colour) constants. 
+
+#### Randomly Coloured AMs (Default "W")
+
+By pressing "W", a randomly coloured AM can be generated.
+  
+  
+https://user-images.githubusercontent.com/63090470/206220161-51204107-efec-4d65-898f-029d334b6087.mp4
 
 
   
-  #### White AMs (Default "Q")
-  A white, slightly lighter AM can be generated as well.
+#### White AMs (Default "Q")
+A white, slightly lighter AM can be generated as well.
   
- ### State 4:Brush
- Brush allows for a "Brushstroke, which can track a solo dancer in the frame. (For multiple bodies, use state 5:Brushstroke_multi)
- The features to this State are as follows:
+### State 4:Brush
+Brush allows for a "Brushstroke, which can track a solo dancer in the frame. (For multiple bodies, use state 5:Brushstroke_multi)
+The features to this State are as follows:
 
-  #### Brushstroke colour
-  The brushstroke can have colours which move through the brushstroke itself (See gif. below).
-  #### Bodypart tracking (Left click on Control_Frame to target, "\[" and "\]" to change bodypart being tracked)
-    [![](https://user-images.githubusercontent.com/63090470/206218027-e230608c-f336-45ff-9f67-941ae60ff990.png)]  (https://github.com/jnzj95/Enigma_/blob/main/vids_4_README/Brush.mp4?raw=true)
+#### Brushstroke colour
+The brushstroke can have colours which move through the brushstroke itself (See video below).
+#### Bodypart tracking (Left click on Control_Frame to target, "\[" and "\]" to change bodypart being tracked)
+
+[![](https://user-images.githubusercontent.com/63090470/206218027-e230608c-f336-45ff-9f67-941ae60ff990.png)]  (https://github.com/jnzj95/Enigma_/blob/main/vids_4_README/Brush.mp4?raw=true)
   
   
- ### State 5: Brushstroke_multi
-  #### Swapping target (default "m")
-  #### Toggling on Det_Multi (default ",")
+### State 5: Brushstroke_multi
+#### Swapping target (default "m")
+#### Toggling on Det_Multi (default ",")
   
   
- ### State 6: Line
-   #### Changing Line thickness/angle/center
-   #### Toggling Movement trace (default 't')
+### State 6: Line
+#### Changing Line thickness/angle/center
+#### Toggling Movement trace (default 't')
     
    
- ### State 7: AM_Faded
-  #### AM on keypress (Default "o")
-  #### Constant AM (Default "i")
+### State 7: AM_Faded
+#### AM on keypress (Default "o")
+#### Constant AM (Default "i")
   
   
- ### State 0: Nothing
-  State 0 will just display the frame captured by the camera, with no extra frills.
+### State 0: Nothing
+State 0 will just display the frame captured by the camera, with no extra frills.
   
 
 ## How to Setup
