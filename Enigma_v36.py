@@ -718,8 +718,22 @@ while True:
                             toggle_mystop = False
                         for k in np.arange(0, max(save_diverge_count + 2, div_frame_partial_idx - mystop + 1)):
                             combine_diverge_frame = cv2.addWeighted(combine_diverge_frame, 1.0, diff_frames[
-                                (div_frame_partial_idx + k) % afterimage_count], 1.0,
-                                                                    0)  # To view just AM, replace current_image with placeholder_frame
+                                (div_frame_partial_idx + k) % afterimage_count], 1.0, 0)  # To view just AM, replace current_image with placeholder_frame
+                    '''
+                    NEW CONSTANTS
+                    div_start_frame_count = 1
+                    div_start_timer_marker = time.time()
+                    
+                    
+                    elif div_start_frame_count < afterimage_count:
+                        combine_diverge_frame = np.zeros((cam_res[1], cam_res[0], 3), dtype=np.uint8)
+                        if div_timer_after - div_start_timer_marker >= bump_diff_hold_timer:
+                          div_start_frame_count+=1
+                        
+                        for k in np.arange(1, div_start_frame_count):
+                            combine_diverge_frame = cv2.addWeighted(combine_diverge_frame, 1.0, diff_frames[
+                                -k], 1.0, 0)  # To view just AM,      
+                    '''        
                             print("In start loop = %d" % (div_frame_partial_idx,))
                             print(k)
                     elif diverge_max_frame - save_diverge_count <= afterimage_count:  # all the way to the end
