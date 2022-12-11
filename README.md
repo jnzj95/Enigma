@@ -2,15 +2,15 @@
 Real-time video effects built on opencv
 
 
-![](https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png)  |  Hello!
+![](https://github.com/jnzj95/Enigma_/blob/main/Enigma%20sample.png)  |  ![Eg2_Diff_Line](https://user-images.githubusercontent.com/63090470/206885595-7586c1d6-224c-4dc2-8a48-39929649ad85.png)
 :-------------------------:|:-------------------------:
-E.g 1: Afterimages         |  E.g 2: Faded frames
+Thank you for         |  taking the time :)
 
 ## Table of Contents
 <ol>
   <li><a href="https://github.com/jnzj95/Enigma_/blob/main/README.md#what-am-i-looking-at">What am I looking at?</a></li>
-  <li><a href="https://github.com/jnzj95/Enigma_/blob/main/README.md#states">States</a></li>
   <li><a href="https://github.com/jnzj95/Enigma_/blob/main/README.md#how-to-setup">How to Setup</a></li>
+  <li><a href="https://github.com/jnzj95/Enigma_/blob/main/README.md#states">States</a></li>
   <li><a href="https://github.com/jnzj95/Enigma_/blob/main/README.md#a-word-of-thanks">A word of Thanks</a></li>
 </ol>
  
@@ -20,10 +20,53 @@ Enigma was developed by myself (<a href="https://github.com/jnzj95">Jack Ng</a>)
 
 I wanted to share the code publically to allow anyone who is interested an opportunity to have the program for their own use. Maybe you saw the show and thought of ideas of your own on how to best use the features shown, want to build on an existing idea we presented, or simply want to improvise and explore different possibilities with the programme. I also get bursts of inspiration watching performances, so I thought it would be fun to have this available for everyone's use.
 
+In this README, I will cover the steps to set up the programe on your own computer, and explain (as fully as I can in text/pictures) what features there are, segmented by ***States***
+
 (Do reach out if you come up with smth cool! I'm most active on <a href="https://www.instagram.com/jkouutktoawski/">Instagram</a>, and I'd love to see anything built on this :D)
 
+
+## How to Setup
+This section will explain how to setup and run the program on your own PC.
+
+### Pre-requisites
+Firstly, do make sure you have [Python](https://www.python.org/downloads/) and [Anaconda](https://www.anaconda.com/)downloaded on your computer. 
+
+The program should work fine on any webcam, but do make sure to adjust the cam_res variable to a resolution your camera is able to support.
+
+### Downloading requirements
+
+To begin,start by setting up the virtual environment (venv for short). 
+When you have it, open up a terminal (Start --> Type "cmd" --> Press Enter) and input the following:
+```
+C:\WINDOWS\system32> conda create --name myVenvName
+```
+(**You can change myVenvName to whatever you like**)
+
+After which, you will need to download the relevant files from this site.
+[<p align="center"><img src="https://user-images.githubusercontent.com/63090470/206827266-d3e70efd-5478-4a44-86ce-4fefa1b6e2ee.png" width="480"/></p>]()
+
+To install the required modules to the virtual environment we created, unzip the downloaded folder to a filepath of your choice. After that, go to the filepath and type in "cmd" to the file location
+[<p align="center"><img src="https://user-images.githubusercontent.com/63090470/206827266-d3e70efd-5478-4a44-86ce-4fefa1b6e2ee.png" width="480"/></p>]()
+
+Then, type in the following command to install the required modules
+```
+<Your filepath>/Enigma_> conda activate myVenvName
+(myVenvName)<Your filepath>/Enigma_> pip install -r requirements.txt
+```
+
+### Running the program
+
+Finally, to run the Enigma programme, input the following:
+```
+<Your filepath>/Enigma_> conda activate myVenvName
+(myVenvName)<Your filepath>/Enigma_> python Enigma_v(38).py
+```
+
+If everything goes well, you should have Enigma for you to play with now.
+
+
 ## States
-The section below describes each of the different features in the program, defined by states. You can change which state you are in using the number keys (**NOT the keypad**)
+This section describes each of the different features in the program, defined by ***states***. States exist to allow different parts of Enigma to run in isolation, which minimises computational stress. You can change which state you are in using the number keys. (**NOT the keypad**)
 
 
 ### State 1: AM_BPM
@@ -240,45 +283,6 @@ P        |   Show Text                        | Displays text, from my_text.txt,
 
 State 0 will just display the frame captured by the camera, with no extra frills.
   
-
-## How to Setup
-This section will explain how to setup and run the code on your own PC.
-
-### Pre-requisites
-Firstly, do make sure you have [Python](https://www.python.org/downloads/) and [Anaconda](https://www.anaconda.com/)downloaded on your computer. 
-
-The program should work fine on any webcam, but do make sure to adjust the cam_res variable to a resolution your camera is able to support.
-
-### Downloading requirements
-
-To begin,start by setting up the virtual environment (venv for short). 
-When you have it, open up a terminal (Start --> Type "cmd" --> Press Enter) and input the following:
-```
-C:\WINDOWS\system32> conda create --name myVenvName
-```
-(**You can change myVenvName to whatever you like**)
-
-After which, you will need to download the relevant files from this site.
-[<p align="center"><img src="https://user-images.githubusercontent.com/63090470/206827266-d3e70efd-5478-4a44-86ce-4fefa1b6e2ee.png" width="480"/></p>]()
-
-To install the required modules to the virtual environment we created, unzip the downloaded folder to a filepath of your choice. After that, go to the filepath and type in "cmd" to the file location
-[<p align="center"><img src="https://user-images.githubusercontent.com/63090470/206827266-d3e70efd-5478-4a44-86ce-4fefa1b6e2ee.png" width="480"/></p>]()
-
-Then, type in the following command to install the required modules
-```
-<Your filepath>/Enigma_> conda activate myVenvName
-(myVenvName)<Your filepath>/Enigma_> pip install -r requirements.txt
-```
-
-### Running the program
-
-Finally, to run the Enigma programme, input the following:
-```
-<Your filepath>/Enigma_> conda activate myVenvName
-(myVenvName)<Your filepath>/Enigma_> python Enigma_v(38).py
-```
-
-If everything goes well, you should have Enigma for you to play with now.
 
 ## A word of Thanks
 
