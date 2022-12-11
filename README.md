@@ -18,9 +18,9 @@ Thank you for         |  taking the time :)
 
 Enigma was developed by myself (<a href="https://github.com/jnzj95">Jack Ng</a>) together with a friend (<a href="https://github.com/Ivan-LZY">Ivan Lim</a>), for a dance piece that I choreographed. The objective for developing this software was to have accompanying visual effects to highlight/obscure certain elements of the dancers' movements, and to offer the audience the option of looking at the same movement from a different perspective.
 
-I wanted to share the code publically to allow anyone who is interested an opportunity to have the program for their own use. Maybe you saw the show and thought of ideas of your own on how to best use the features shown, want to build on an existing idea we presented, or simply want to improvise and explore different possibilities with the programme. I also get bursts of inspiration watching performances, so I thought it would be fun to have this available for everyone's use.
+I wanted to share the code publically to allow anyone interested an opportunity to have the program for their own use. Maybe you saw the show and have your own ideas of how to best use the features shown, want to build on an existing idea we presented, or simply want to improvise and explore different possibilities with the programme. I also get bursts of inspiration watching performances, so I thought it would be fun to have this available for everyone's use.
 
-In this README, I will cover the steps to set up the programe on your own computer, and explain (as fully as I can in text/pictures) what features there are, segmented by ***States***
+In this README, I will cover the steps to set up the programe on your own computer, and explain (as fully as I can in text/pictures) what Enigma has to offer, by going through a list of possible modes, or ***States***, that Enigma has.
 
 (Do reach out if you come up with smth cool! I'm most active on <a href="https://www.instagram.com/jkouutktoawski/">Instagram</a>, and I'd love to see anything built on this :D)
 
@@ -29,7 +29,7 @@ In this README, I will cover the steps to set up the programe on your own comput
 This section will explain how to setup and run the program on your own PC.
 
 ### Pre-requisites
-Firstly, do make sure you have [Python](https://www.python.org/downloads/) and [Anaconda](https://www.anaconda.com/)downloaded on your computer. 
+Firstly, do make sure you have [Python](https://www.python.org/downloads/) and [Anaconda](https://www.anaconda.com/) downloaded on your computer. 
 
 The program should work fine on any webcam, but do make sure to adjust the cam_res variable to a resolution your camera is able to support.
 
@@ -70,9 +70,9 @@ This section describes each of the different features in the program, defined by
 
 
 ### State 1: AM_BPM
-***AM_BPM*** creates afterimages (AM) of a moving object at a fixed time intervals.
+***AM_BPM*** creates afterimages (AM) of a moving object at a fixed time interval.
   
-The time intervals can be controlled by using the constant (Insert time_interval variable here). The number of AMs can also be changed by changing the constant "afterimage_count" in the code. 
+The time intervals can be controlled by using the constant "bpm_period". The number of AMs can also be changed by changing the constant "afterimage_count" in the code. 
 On reaching the maximum set number of AMs, the oldest AM will be dumped and replaced with the newest one.
   
 For a more flexible version, see State 2: ***AM_On_Click***.
