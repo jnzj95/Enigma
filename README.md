@@ -43,10 +43,13 @@ C:\WINDOWS\system32> conda create --name myVenvName python==3.7.13
 (**I haven't tested this with other versions of Python but i have no reason to belive it wouldn't work on newer versions. You can also change myVenvName to whatever you like**)
 
 After which, you will need to download the relevant files from this site.
+
 [<p align="center"><img src="https://user-images.githubusercontent.com/63090470/206827266-d3e70efd-5478-4a44-86ce-4fefa1b6e2ee.png" width="480"/></p>]()
 
-To install the required modules to the virtual environment we created, unzip the downloaded folder to a filepath of your choice. After that, go to the filepath and type in "cmd" to the file location
-[<p align="center"><img src="https://user-images.githubusercontent.com/63090470/206827266-d3e70efd-5478-4a44-86ce-4fefa1b6e2ee.png" width="480"/></p>]()
+To install the required modules to the virtual environment we created, unzip the downloaded folder to a filepath of your choice. After that, go to the filepath and type in "cmd" to the file location (Where the red arrow points to in the picture below).
+
+[<p align="center"><img src="https://user-images.githubusercontent.com/63090470/207378683-fa1162dc-6d9b-4d9a-8ff5-4b2512dcf6de.png" width="480"/></p>]()
+
 
 Then, type in the following command to install the required modules
 ```
@@ -95,14 +98,16 @@ U        |   Trailing off AM
 
  #### AM on keypress (Default "O")
 A 'snapshot' can be created on the user pressing "O", instead of a fixed time interval.
-  
-[<p align="center"><img src="https://user-images.githubusercontent.com/63090470/206217929-93b90e56-04a7-4d81-9aba-25775c76c180.png" width="640"/></p>](https://raw.githubusercontent.com/jnzj95/Enigma_/main/vids_4_README/AM_On_Click_O.mp4?token=GHSAT0AAAAAAB4CCCMGCMIJXDEXYGMULTBEY4QW4SA)
+
+https://user-images.githubusercontent.com/63090470/207379120-c17d36b1-849c-484f-b066-45450c7756a5.mp4
+
+
   
   #### Constant AM (Default "I")
  Similar to ***AM_BPM***, and is meant to be the equivalent of holding own the "O" key. Pressing "I" will toggle the constant AMs to come on/off.
   
-  
-  [<p align="center"><img src="https://user-images.githubusercontent.com/63090470/206218027-e230608c-f336-45ff-9f67-941ae60ff990.png" width="640"/></p>](https://raw.githubusercontent.com/jnzj95/Enigma_/main/vids_4_README/AM_On_Click_I.mp4?token=GHSAT0AAAAAAB4CCCMG22WHWR4BODLBTDUAY4QWXQQ)
+
+https://user-images.githubusercontent.com/63090470/207379061-1348947e-a36c-40cc-9fca-3db10e679721.mp4
   
   
 #### Diverging AM (Default save button ";" and load button" ' ")
@@ -252,9 +257,12 @@ https://user-images.githubusercontent.com/63090470/207252045-4e932ae1-9742-4e13-
 
 #### Toggling Movement trace (default 'T')
 
-On pressing 'T', a trace of the dancers's movements can be toggled on/off, as shown in the video below. Note the dancers walking into frame are not seen, but the arm can be seen.
+On pressing 'T', a trace of the dancers's movements can be toggled on/off, as shown in the video below. Note that in the blackened area, the dancers standing still cannot be seen, but a "trace" the ones moving can be seen.
 
-(Insert the McD part with PY here)
+
+https://user-images.githubusercontent.com/63090470/207381056-f848c115-af76-413a-9879-b7f99497c167.mp4
+
+
    
 ### State 7: AM_Faded
 
@@ -270,14 +278,20 @@ I        |   Toggle Constant Fade
 #### AM on keypress (Default "o")
 Pressing "O" creates a 'snapshot' of a faded frame at the point "O" is pressed. 
 
-(Insert the group "warping")
+
+https://user-images.githubusercontent.com/63090470/207380105-ae085fcd-95ae-49dc-8117-77d497c8415c.mp4
+
 
 (The "warping" effect is created by pressing "O" several times, then pressing "I" to quickly bring all AMs to the dancers' bodies.)
 
 #### Constant AM (Default "i")
 Pressing "I" toggles on/off the faded frame effect. 
 
-(Insert the gesture set)
+
+
+https://user-images.githubusercontent.com/63090470/207380142-5004f34f-f3b1-4537-82f2-b1adfaaa5c60.mp4
+
+
 
 ### Other Functions
 
