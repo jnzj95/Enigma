@@ -189,7 +189,9 @@ The tracking is initiated by clicking on the ***Control_Frame*** when the progra
 The brushstroke can have colours which move through the brushstroke itself (See video below).
 #### Bodypart tracking (Left click on Control_Frame to target, "\[" and "\]" to change bodypart being tracked)
 
-[![](https://user-images.githubusercontent.com/63090470/206218027-e230608c-f336-45ff-9f67-941ae60ff990.png)]  (https://github.com/jnzj95/Enigma_/blob/main/vids_4_README/Brush.mp4?raw=true)
+
+
+https://user-images.githubusercontent.com/63090470/207251270-b8a36efc-cd26-4e01-be86-79e2a4eac88d.mp4
   
   
 ### State 5: Brushstroke_multi
