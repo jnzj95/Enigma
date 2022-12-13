@@ -40,7 +40,7 @@ When you have it, open up a terminal (Start --> Type "cmd" --> Press Enter) and 
 ```
 C:\WINDOWS\system32> conda create --name myVenvName python==3.7.13
 ```
-(**You can change myVenvName to whatever you like**)
+(**I haven't tested this with other versions of Python but i have no reason to belive it wouldn't work on newer versions. You can also change myVenvName to whatever you like**)
 
 After which, you will need to download the relevant files from this site.
 [<p align="center"><img src="https://user-images.githubusercontent.com/63090470/206827266-d3e70efd-5478-4a44-86ce-4fefa1b6e2ee.png" width="480"/></p>]()
