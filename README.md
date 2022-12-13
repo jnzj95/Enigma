@@ -218,7 +218,11 @@ On pressing ",", the programme continually updates the new point every X number 
 
 However, this is computationally taxing, which will cause the framerate to suffer, and hence should be used sparingly.
 
-(1 video of both functions in action)
+
+
+https://user-images.githubusercontent.com/63090470/207251975-88e3058e-0305-4b63-a285-bd656e45d727.mp4
+
+
 
 ### State 6: Line
 
@@ -240,7 +244,11 @@ T        |   Toggle Trace
 
 Using the controls in the table above, the line's position, thickness, and angle can be adjusted.
 
-(Insert demo video)
+
+
+https://user-images.githubusercontent.com/63090470/207252045-4e932ae1-9742-4e13-a218-176095a806f5.mp4
+
+
 
 #### Toggling Movement trace (default 'T')
 
@@ -263,6 +271,8 @@ I        |   Toggle Constant Fade
 Pressing "O" creates a 'snapshot' of a faded frame at the point "O" is pressed. 
 
 (Insert the group "warping")
+
+(The "warping" effect is created by pressing "O" several times, then pressing "I" to quickly bring all AMs to the dancers' bodies.)
 
 #### Constant AM (Default "i")
 Pressing "I" toggles on/off the faded frame effect. 
