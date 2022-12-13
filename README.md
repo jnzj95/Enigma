@@ -38,7 +38,7 @@ The program should work fine on any webcam, but do make sure to adjust the cam_r
 To begin,start by setting up the virtual environment (venv for short). 
 When you have it, open up a terminal (Start --> Type "cmd" --> Press Enter) and input the following:
 ```
-C:\WINDOWS\system32> conda create --name myVenvName
+C:\WINDOWS\system32> conda create --name myVenvName python==3.7.13
 ```
 (**You can change myVenvName to whatever you like**)
 
